@@ -1,6 +1,6 @@
 ---
 title: "Lab 3 Report"
-author: "___"
+author: "Lara Al Selim"
 date: "`r format(Sys.Date())`"
 output: github_document
 ---
@@ -29,7 +29,7 @@ Instructions for this lab report can be found on [Your assignment section of Lab
 
 I read the data using the code provided by the instructor. The dataset is from the auk package and was originally named ebird_taxonomy. I converted it to a tibble, removed non-species taxa, and named the new dataset birds.
 
-```{r}
+```
 library(auk)                          # load the auk package
 birds <- ebird_taxonomy %>%           # start with the ebird_taxonomy data
   as_tibble() %>%                     # tibbles print better in the console
